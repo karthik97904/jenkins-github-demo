@@ -16,6 +16,7 @@ pipeline{
                 sh 'pwd'
                 sh 'python3 --version'
                 sh 'python3 app.py'
+                echo 'Testing the WebHook'
             }
         }
     }
